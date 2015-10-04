@@ -2,12 +2,57 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Nice-quotes by lipemorais</title>
+    <title>Nice-quotes by Felipe de Morais</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var quotes = [
+            {
+                "sentence": "A necessidade é a mãe das invenções",
+            "author": "Autor desconhecido"
+            },
+            {
+                "sentence": "Escreva suas mágoas em areia, sua gratidão em mármore",
+                "author": "Benjamin Franklin"
+            },
+            {
+                "sentence": "É algo bonito, não? O que um homem conquista se tiver um propósito",
+                "author": "Ashur - Spartacus S02E09"
+            },
+            {
+                "sentence": "Mude mas comece devagar, o sentido é mais importante que a velocidade",
+                "author": "Autor desconhecido"
+            },
+            {
+                "sentence": "Tente dobrar um braço e ele resistirá. Mas convença uma mente a pensar como vocês ter deseja e terá conquistado um aliado",
+                "author": "Fortaleza Digital - Dan Brown"
+            },
+            {
+                "sentence": "Nunca dormir sem resolver um problema pessoal com alguém pois quando acumula é pior",
+                "author": "Flávio Augusto - Geração de valor"
+            },
+            {
+                "sentence": "Fazer a mesma coisa e esperar resultados diferentes é loucura",
+                "author": "Albert Einstein"
+            },
+        ];
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+        var SENTENCE_ID = "sentence";
+        var AUTHOR_ID= "author";
+
+        var sentenceElement = document.getElementsByClassName('project-name')[0].innerText;
+        var authorElement = document.getElementsByClassName('project-tagline')[0].innerText;
+        console.log(sentenceElement, authorElement);
+    });
+    </script>
   </head>
   <body>
     <section class="page-header">
