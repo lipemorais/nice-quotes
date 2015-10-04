@@ -1,0 +1,12 @@
+#quote {
+    font: 500 35px 'Shadows Into Light', cursive;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('/img/quotes.png') center center no-repeat;
+}
