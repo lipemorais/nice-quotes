@@ -1,2 +1,2 @@
 # nice-quotes
-A repo with my favorite quotes
+This is where i gather my favorite quotes.
