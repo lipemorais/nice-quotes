@@ -8,68 +8,26 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var quotes = [
-            {
-                "sentence": "A necessidade é a mãe das invenções",
-            "author": "Autor desconhecido"
-            },
-            {
-                "sentence": "Escreva suas mágoas em areia, sua gratidão em mármore",
-                "author": "Benjamin Franklin"
-            },
-            {
-                "sentence": "É algo bonito, não? O que um homem conquista se tiver um propósito",
-                "author": "Ashur - Spartacus S02E09"
-            },
-            {
-                "sentence": "Mude mas comece devagar, o sentido é mais importante que a velocidade",
-                "author": "Autor desconhecido"
-            },
-            {
-                "sentence": "Tente dobrar um braço e ele resistirá. Mas convença uma mente a pensar como vocês ter deseja e terá conquistado um aliado",
-                "author": "Fortaleza Digital - Dan Brown"
-            },
-            {
-                "sentence": "Nunca dormir sem resolver um problema pessoal com alguém pois quando acumula é pior",
-                "author": "Flávio Augusto - Geração de valor"
-            },
-            {
-                "sentence": "Fazer a mesma coisa e esperar resultados diferentes é loucura",
-                "author": "Albert Einstein"
-            },
-        ];
-
-        function getRandomInt(min, max) {
-            return Math.floor(Math.random() * (max - min)) + min;
-        }
-
-        var SENTENCE_ID = "sentence";
-        var AUTHOR_ID   = "author";
-
-        var sentenceElement = document.getElementById(SENTENCE_ID);
-        var authorElement   = document.getElementById(AUTHOR_ID);
-        var quote = quotes[getRandomInt(0, quotes.length)];
-
-        sentenceElement.innerText = quote.sentence + ".";
-        authorElement.innerText = quote.author;
-        console.log(quote.sentence,'-', quote.author);
-    });
-    </script>
+    <script src="js/main.js"></script>
   </head>
   <body>
-    <section class="page-header">
-      <h1 id="sentence">Nice-quotes</h1>
-      <h2 id="author">A repo with my favorite quotes</h2>
-      <a href="https://github.com/lipemorais/nice-quotes" class="btn">View on GitHub</a>
-      <a href="https://github.com/lipemorais/nice-quotes/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/lipemorais/nice-quotes/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/lipemorais/nice-quotes">Nice-quotes</a> is maintained by <a href="https://github.com/lipemorais">lipemorais</a>.</span>
-      </footer>
-    </section>
+    <header class="page-header">
+        <section>
+            <h1 id="sentence">Nice-quotes</h1>
+            <h2 id="author">A repo with my favorite quotes</h2>
+        </section>
+        <p class="gh-btns">
+            <iframe src="https://ghbtns.com/github-btn.html?user=lipemorais&amp;repo=nice-quotes&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="152" height="30"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=lipemorais&amp;repo=nice-quotes&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="156" height="30"></iframe>
+        </p>
+    </header>
+
+    <footer class="site-footer">
+        <p class="credits">
+            Made with <span class="love">♥</span> by <a class="credits-link" href="http://github.com/lipemorais/">Felipe de Morais</a>
+        </p>
+    </footer>
+
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -80,6 +38,5 @@
         pageTracker._trackPageview();
         } catch(err) {}
     </script>
-
   </body>
 </html>
