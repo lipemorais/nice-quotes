@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "author": "Autor desconhecido",
         },
         {
-        "sentence": "A força de um homem não esta no peso que ele carrega, mas sim no que ele acredi}ta",
+        "sentence": "A força de um homem não esta no peso que ele carrega, mas sim no que ele acredita",
         "author": "Anderson Silva",
         },
         {
