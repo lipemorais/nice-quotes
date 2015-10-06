@@ -129,6 +129,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var authorElement   = document.getElementById(AUTHOR_ID);
     var quote = quotes[getRandomInt(0, quotes.length)];
 
-    sentenceElement.innerText = quote.sentence + ".";
-    authorElement.innerText = quote.author;
+    sentenceElement.textContent = quote.sentence + ".";
+    authorElement.textContent = quote.author;
 });
