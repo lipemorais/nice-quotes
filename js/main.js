@@ -3,7 +3,6 @@
 
     var quotes = [];
     var usedQuotes = [];
-    var intervalId = null;
 
     document.addEventListener('DOMContentLoaded', function() {
         loadQuotes();
